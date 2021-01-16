@@ -1,7 +1,7 @@
 # SSH-Remote-Access-VPN
 A Remote access virtual private network using SSH. Having 3 main components, Remote LAN, Network Access Server and Client. The concept used was remote Port forwarding using SSH. Currently the application supports only a CLI interface, as the GUI config is still in work. 
 
-<img src="https://drive.google.com/file/d/1tHnzqtxiisCaops4MACF3ewEMLdwHNC5/view?usp=sharing" alt="VPN Structure"/>
+<img src="Overlay.png" width="600" height="300"/>
 
 Vagrant Containers were used to Set up the Remote LAN.
 
