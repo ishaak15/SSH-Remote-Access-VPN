@@ -17,9 +17,9 @@ Install all the requirements in **Python3** using the following command:
 Setup a LAN Network
 
     Prepare a Vagrant config file.
-    Create a vagrant environment using the **vagrant init** command and edit the Vagrantfile to look similar to Vagrantfile_LDAPServer.
+    Create a vagrant environment using the vagrant init command and edit the Vagrantfile to look similar to Vagrantfile_LDAPServer.
     The latest OS version will be downloaded from the Vagrant cloud.
-    Vagrant box will be set up using the **vagrant up** command.
+    Vagrant box will be set up using the vagrant up command.
 
 Set up Network Access Server<br>
 
