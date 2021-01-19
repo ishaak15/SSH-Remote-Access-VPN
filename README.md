@@ -17,9 +17,9 @@ Steps of Setup of the Entire VPN:
 Setup a LAN Network
 
   Prepare a Vagrant config file.
-  Create a vagrant environment using the **vagrant init** command and edit the Vagrantfile to look similar to Vagrantfile_LDAPServer.
-  The latest OS version will be downloaded from the Vagrant cloud.
-  Vagrant box will be set up using the **vagrant up** command.
+  Create a vagrant environment using the **vagrant init** command and edit the Vagrantfile to look similar to Vagrantfile_LDAPServer.\n
+  The latest OS version will be downloaded from the Vagrant cloud.\n
+  Vagrant box will be set up using the **vagrant up** command.\n
 
     
 
