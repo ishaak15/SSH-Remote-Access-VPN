@@ -10,45 +10,43 @@ An AWS EC2 instance was used to setup the Network access server to listen to inc
 Client application to connect to the NAS and thereby the Remote LAN.
 Install all the requirements in **Python3** using the following command:
 
-pip3 install -r requirements.txt
+    pip3 install -r requirements.txt
 
-Steps of Setup of the Entire VPN:
+**Steps of Setup of the Entire VPN:**
 
 Setup a LAN Network
 
-  Prepare a Vagrant config file.
-  Create a vagrant environment using the **vagrant init** command and edit the Vagrantfile to look similar to Vagrantfile_LDAPServer.\n
-  The latest OS version will be downloaded from the Vagrant cloud.\n
-  Vagrant box will be set up using the **vagrant up** command.\n
+    Prepare a Vagrant config file. <br>
+    Create a vagrant environment using the **vagrant init** command and edit the Vagrantfile to look similar to Vagrantfile_LDAPServer.<br>
+    The latest OS version will be downloaded from the Vagrant cloud.<br>
+    Vagrant box will be set up using the **vagrant up** command.<br>
 
-    
+Set up Network Access Server<br>
 
-Set up Network Access Server
-
-  Set up an EC2 server
-  Configure SSH Tunnel using the NAS_SSHDconf.txt file 
-  Setup Tunnel opening
+    Set up an EC2 server<br>
+    Configure SSH Tunnel using the NAS_SSHDconf.txt file <br>
+    Setup Tunnel opening<br>
 
 
-Local Bridge Connection
+Local Bridge Connection<br>
 
-  Configure SSH on the Gateway ie the point of connection of the LAN with the NAS
-  Setup SSH tunnel
-  Allow NAS to receive connections
-
-
-Authentication 
-
-  Generate SSH Keys of the Gateway
-  Copy SSH Key to a NAS
-  Setup LDAP on the LAN Gateway
+    Configure SSH on the Gateway ie the point of connection of the LAN with the NAS<br>
+    Setup SSH tunnel<br>
+    Allow NAS to receive connections<br>
 
 
-VPN Server Application
+Authentication <br>
 
-  python3 ServerVPNTunnel.py 
+    Generate SSH Keys of the Gateway<br>
+    Copy SSH Key to a NAS<br>
+    Setup LDAP on the LAN Gateway<br>
 
-VPN Client to connect to Network Access Server
 
-  python3 VPNClientapp.py
+VPN Server Application<br>
+
+    python3 ServerVPNTunnel.py <br>
+
+VPN Client to connect to Network Access Server<br>
+
+    python3 VPNClientapp.py<br>
 
